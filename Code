@@ -16,4 +16,5 @@ int main()
   cout << "Number 5: " << num5 << endl;
   //display average on the screen
   cout << "The average is: " << average << endl;
+  system("pause");
 }
