@@ -1,11 +1,11 @@
-#include<iostream>
-using namespace std;
+#include<iostream>        //neccesarry for cout and cin objects
+using namespace std;      //scope for key words
 
 int main()
 {
-  int num1,num2,num3,num4,num5;
-  double average,sum;
-  cout << "Enter 5 numbers with spaces in between them: " <<endl;
+  int num1,num2,num3,num4,num5;  //declare variable types
+  double average,sum;             //using doubles to allow for decimals
+  cout << "Enter 5 numbers with spaces in between them: " <<endl;   
   cin >> num1 >> num2 >> num3 >> num4 >> num5 >>endl;
   sum = (num1+num2+num3+num4+num5);
   average = sum / 5.0;
@@ -16,5 +16,5 @@ int main()
   cout << "Number 5: " << num5 << endl;
   //display average on the screen
   cout << "The average is: " << average << endl;
-  system("pause");
+  system("pause");                                      //need a better way to do this
 }
